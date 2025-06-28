@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="logo">My portfolio</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-wrapper">
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+      <div class="home-left slide-in-left">
+        <img src="varshini.jpg" alt="My Photo" />
+      </div>
+      <div class="home-right slide-in-right">
+        <h1>Hello, I'm Varshini</h1>
+        <p>Web Developer | Creative Coder | Tech Enthusiast</p>
+        <p>I'm Jogi Varshini, a passionate and creative B.Tech (AIML) student. This portfolio showcases my projects, skills, and achievements. I love turning ideas into meaningful digital experiences.</p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <div class="about-text">
+          <p>Hello! I'm <strong>Jogi Varshini</strong>, a passionate <strong>4th year B.Tech (AIML)</strong> student who loves web development and solving problems with code.</p>
+          <p>I enjoy writing clean code and building <strong>user-friendly</strong> experiences. I'm eager to learn and grow every day!</p>
+          <div class="about-highlights">
+            <div class="highlight-box">🎓 B.Tech in AIML</div>
+            <div class="highlight-box">💻 Web Developer</div>
+            <div class="highlight-box">📍 Guntur, India</div>
+            <div class="highlight-box">🚀 Fast Learner</div>
+          </div>
+          <a href="#" class="btn-cv" target="_blank">Download CV</a>
+        </div>
+        <div class="about-img">
+          <img src="varshu.jpg" alt="My Photo" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>HTML</h3>
+          <div class="progress-bar">
+            <div class="progress" data-width="95">95%</div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>CSS</h3>
+          <div class="progress-bar">
+            <div class="progress" data-width="90">90%</div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+          <div class="progress-bar">
+            <div class="progress" data-width="85">85%</div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Python</h3>
+          <div class="progress-bar">
+            <div class="progress" data-width="80">80%</div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Java</h3>
+          <div class="progress-bar">
+            <div class="progress" data-width="75">75%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <img src="Weather.jpg" alt="Weather App">
+          <div class="project-info">
+            <h3>Weather App</h3>
+            <p>Real-time weather with OpenWeatherMap API.</p>
+            <a href="weather app/index.html" target="_blank">View</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="to-do-list.jpg" alt="To-Do List">
+          <div class="project-info">
+            <h3>To-Do List</h3>
+            <p>Task management with localStorage.</p>
+            <a href="v.html" target="_blank">View</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="port.jpg" alt="Portfolio">
+          <div class="project-info">
+            <h3>Portfolio</h3>
+            <p>Simple portfolio with HTML/CSS/JS.</p>
+            <a href="index.html" target="_blank">View</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form class="contact-form" action="https://formspree.io/f/xeokkopw" method="POST">
+        <div class="input-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Your Email" required>
+        </div>
+        <div class="input-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
