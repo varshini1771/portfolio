@@ -19,7 +19,7 @@ body {
 
 /* Fixed Sidebar Styles */
 .sidebar {
-  position: fixed;
+  position: relative;
   left: 0;
   top: 0;
   width: 220px;
